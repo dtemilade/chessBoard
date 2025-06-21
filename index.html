@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chess Game: One side</title>
+    <link rel="icon" href="images/mychess.jpeg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>WEEK TWO : ASSIGNMENT</h1>
+        <h2>[ CHESS GAME ]</h2>
+        <ul>
+            <li><a href="#chess">CHESS BOARD</a></li>
+            <li><a href="#about">ABOUT</a></li>
+        </ul>
+    </header>
+
+    <main id="chess">
+        <div id="table">
+            <table>
+                    <tr>
+                        <td id="rook_1"><a href="#rook">ROOK</a></td>
+                        <td id="knight_1" class="brown_shade"><a href="#knight">KNIGHT</a></td>
+                        <td id="bishop_1"><a href="#bishop">BISHOP</a></td>
+                        <td id="queen_cell" class="brown_shade"><a href="#queen">QUEEN</a></td>
+                        <td id="king_cell"><a href="#king">KING</a></td>
+                        <td id="bishop_2" class="brown_shade"><a href="#bishop">BISHOP</a></td>
+                        <td id="knight_2"><a href="#knight">KNIGHT</a></td>
+                        <td id="rook_2" class="brown_shade"><a href="#rook">ROOK</a></td>
+                    </tr>
+                    <tr class="pawn_cells">
+                        <td class="brown_shade"><a href="#pawn">PAWN</a></td>
+                        <td><a href="#pawn">PAWN</a></td>
+                        <td class="brown_shade"><a href="#pawn">PAWN</a></td>
+                        <td><a href="#pawn">PAWN</a></td>
+                        <td class="brown_shade"><a href="#pawn">PAWN</a></td>
+                        <td><a href="#pawn">PAWN</a></td>
+                        <td class="brown_shade"><a href="#pawn">PAWN</a></td>
+                        <td><a href="#pawn">PAWN</a></td>
+                    </tr>
+            </table>
+        </div>
+
+        <div id="info-container">
+            <section id="about">
+                <h2><u>Introduction to Chess</u></h2>
+                Chess is a strategic board game played between two players, rich in history and strategy. It is often considered a mental sport, requiring both critical thinking and foresight. The game is played on an 8x8 square board consisting of 64 squares alternately colored in a checkerboard pattern.
+                <br><br>The objective of chess is to checkmate your opponent's king, placing it in a position where it cannot escape capture on the next move.<br><br>
+                <b>Basic Setup and Players</b><br>
+                <ul>
+                    <li><b>White:</b> Always moves first.</li>
+                    <li><b>Black:</b> Plays second, responding to White's opening moves.</li>
+                </ul>
+                </b><br><b>Each player controls 16 pieces:</b>
+                <ul>
+                    <li>1 King: The most critical piece; losing it ends the game.</li>
+                    <li>1 Queen: The most powerful piece with the freedom to move in any direction.</li>
+                    <li>2 Rooks: Moves in straight lines across rows or columns.</li>
+                    <li>2 Bishops: Moves diagonally across the board.</li>
+                    <li>2 Knights: Moves in an “L” shape, capable of jumping over other pieces.</li>
+                    <li>8 Pawns: The smallest pieces, moving forward one square at a time but capturing diagonally.</li>
+
+                </ul>
+                <button><a href="#chess">GOTO CHESS</a></button>
+                </section>
+            <section id="rook">
+                <h2>3. The Rooks</h2>
+            <p><b>Role:</b> The rooks are strong pieces, especially effective in controlling open files (columns) or ranks (rows).</p>
+            <p><b>Movement:</b> They can move any number of squares in straight lines, either horizontally or vertically.</p>
+            <p><b>Special Move:</b> Rooks participate in castling alongside the king.</p>
+            <p><b>Strategy:</b>
+                <ul>
+                    <li>Place rooks on open files where they have unobstructed range.</li>
+                    <li>Work in pairs—rooks become particularly powerful when connected.</li>
+                </ul>
+            </p>
+            <button><a href="#chess">GOTO CHESS</a></button>
+            </section>
+            <section id="knight">
+                <h2>5. The Knights</h2>
+            <p><b>Role:</b> Knights are unique in their ability to jump over other pieces and create unexpected threats.</p>
+            <p><b>Movement:</b> Knights move in an "L" shape—two squares in one direction and then one square perpendicular, or vice versa.</p>
+            <p><b>Special Features:</b>
+                <ul>
+                    <li>They are the only piece that can jump over others, making them valuable in cramped or crowded positions.</li>
+                </ul>
+            </p>
+            <p><b>Strategy:</b>
+                <ul>
+                    <li>Place knights in the center of the board to maximize their range.</li>
+                    <li>Use knights to create “forks,” where one knight threatens two or more opposing pieces at once.</li>
+                </ul>
+            </p>
+            <button><a href="#chess">GOTO CHESS</a></button>
+            </section>
+            <section id="bishop">
+                <h2>4. The Bishops</h2>
+            <p><b>Role:</b> Bishops specialize in controlling squares of one color (light or dark).</p>
+            <p><b>Movement:</b> They can move any number of squares diagonally.</p>
+            <p><b>Strategy:</b>
+                <ul>
+                    <li>Bishops thrive in open positions where they have room to maneuver.</li>
+                    <li>Control both light and dark squares for maximum effectiveness (e.g., when working with both bishops).</li>
+                </ul>
+            </p>
+            <button><a href="#chess">GOTO CHESS</a></button>
+            </section>
+            <section id="queen">
+                <h2>2. The Queen</h2>
+            <p><b>Role:</b> The queen is the most powerful and versatile piece, combining the movement abilities of the rook and bishop.</p>
+            <p><b>Movement:</b> It can move any number of squares in any direction—horizontally, vertically, or diagonally.</p>
+            <p><b>Strategy:</b>
+                <ul>
+                    <li>Use the queen to attack or support other pieces.</li>
+                    <li>Avoid exposing the queen early, as its loss can severely weaken your position.</li>
+                </ul>
+            </p>
+            <p><b>Special Feature:</b> If a pawn reaches the opponent's back rank, it can promote to a queen (or any other piece).</p>
+            </section>
+
+            <section id="king">
+                <h2>1. The King</h2>
+            <p><b>Role:</b> The king is the most critical piece in the game. The primary objective is to protect your king while trying to put your opponent's king in checkmate.</p>
+            <p><b>Movement:</b> The king can move one square in any direction: horizontally, vertically, or diagonally.</p>
+            <p><b>Special Move:</b> Castling—A move combining the king and one rook. The king moves two squares towards a rook, and the rook jumps over the king to land beside it. This can only be done if:
+                <ul>
+                    <li>The king and rook have not moved.</li>
+                    <li>There are no pieces between the king and rook.</li>
+                    <li>The king is not in check, does not move through a square under attack, or end up in check.</li>
+                </ul>
+            </p>
+            <p><b>Game Over:</b> If the king is under threat of capture (check) and no legal moves can save it, the game ends in a checkmate.</p>
+            <button><a href="#chess">GOTO CHESS</a></button>
+            </section>
+
+            <section id="pawn">
+                <h2>6. The Pawns</h2>
+            <p><b>Role:</b> Pawns are the game's smallest and most numerous pieces, but they can transform into a powerful asset.</p>
+            <p><b>Movement:</b>
+                <ul>
+                    <li>Forward Movement: Pawns move forward one square at a time.</li>
+                    <li>First Move: Each pawn can move two squares forward on its first move.</li>
+                    <li>Capturing: Pawns capture diagonally, one square in either direction.</li>
+                </ul>
+            </p>
+            <p><b>Special Moves:</b>
+                <ul>
+                    <li>En Passant: A pawn can capture an opponent’s pawn that moves two squares forward from its starting position, landing beside the attacking pawn. This move must be made immediately.</li>
+                    <li>Promotion: If a pawn reaches the opponent's back rank, it must be promoted to any other piece (usually a queen).</li>
+                </ul>
+            </p>
+            <p><b>Strategy:</b>
+                <ul>
+                    <li>Pawns can form structures, like "pawn chains," which protect each other.</li>
+                    <li>Control the center with pawns to create space for your other pieces.</li>
+                    <li>Watch for pawn breaks (moves that open lines for your other pieces).</li>
+                </ul>
+            </p>
+            <button><a href="#chess">GOTO CHESS</a></button>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <h2>Designed by:</h2>
+        <h1>DAUDA TEMILADE SODIQ</h1>
+    </footer>
+</body>
+</html>

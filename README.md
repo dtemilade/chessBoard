@@ -31,7 +31,11 @@ CSS styling and color shading
 Linking between sections of a single-page application
 
 📹 Demo
+
 You can explore the DEMO here:
+        <video width="400" height="200" poster="images/poster.png" controls="controls" >
+          <source src="video/chess.webm" type="video/webm">
+        </video>
 
 🖥 Technologies Used
 
